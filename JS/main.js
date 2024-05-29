@@ -1,6 +1,5 @@
-let saludar = function(nombre="como estas"){
-    return `Hola ${nombre}`
-}
+let lista = ["a","b","c","d","e","f"];
 
-let res = saludar();
-console.log(res);
+lista.forEach(function(value, indice, copy){
+    console.log(copy);
+});
